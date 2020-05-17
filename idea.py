@@ -63,8 +63,8 @@ try:
         #send email with text
         print('Sending Email..')
         #email details
-        message = Mail(from_email='connor.guard@gmail.com',
-        to_emails ='connor.guard@gmail.com',
+        message = Mail(from_email='Example.Example@gmail.com',
+        to_emails ='Example.Example@gmail.com',
         subject='New Idea!',
         html_content='<strong>'+Text+'</strong>')
         #I should save the API key in an environment variable, but for this project I wont.
