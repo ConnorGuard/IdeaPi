@@ -69,7 +69,7 @@ try:
         html_content='<strong>'+Text+'</strong>')
         #I should save the API key in an environment variable, but for this project I wont.
         #This is NOT my actual API key I used, for security to my personal Email I changed it.
-        api = SendGridAPIClient('SG.HibegtINQlecWDGYKG973N2b424XUpZMzLtSESFJICQ')
+        api = SendGridAPIClient('SG.HibevbcvNQlesdfgdfgdfvbdfvdfZMzLtSESFJICQ')
         #sends email
         response = api.send(message)
         #checks email status
