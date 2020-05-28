@@ -64,8 +64,8 @@ try:
         #send email with text
         print('Sending Email..')
         #email details
-        message = Mail(from_email='connor.guard@gmail.com',
-        to_emails ='connor.guard@gmail.com',
+        message = Mail(from_email='example.example@gmail.com',
+        to_emails ='example.example@gmail.com',
         subject='New Idea!',
         html_content='<strong>'+Text+'</strong>')
         #opens the textfile and attaches it to the email
